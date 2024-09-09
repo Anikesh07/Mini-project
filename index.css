@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+  }
+
+  .container{
+    padding: 10px;
+    justify-content: center;
+    overflow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav{
+    width: 100%;
+    border: 1px solid yellowgreen;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.38rem;
+}
+
+.nav-left{
+    border: 1px solid yellowgreen;
+    width: 40%;
+}
+
+.nav-right{
+    border: 1px solid yellowgreen;
+    width: 60%;
+}
+
+.nav-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-link:hover{
+    color: aqua;
+}
