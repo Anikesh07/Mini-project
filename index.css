@@ -63,6 +63,12 @@ nav{
     color: aqua;
 }
 
+
+.main-container{
+  border: 1px solid yellowgreen;
+  width: 100;
+  height: 90vh;
+}
 .forum-center{
     border: 1px solid yellowgreen;
     width: 100%;
