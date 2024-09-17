@@ -184,7 +184,7 @@ a {
 .form_container a:hover {
   text-decoration: underline;
 }
-.checkbox {
+.checkbox { 
   display: flex;
   column-gap: 8px;
   white-space: nowrap;
